@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.2" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.FrameFormInfo">
+  <Properties>
+    <Property name="title" type="java.lang.String" value="Ingresar, buscar y modificar cursos"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="exitForm"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="labelBuscar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelClave" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelCreditos" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelNombre" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelSemestre" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelProfesor" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelAlumnosInscritos" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelBuscarClave" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelModNombre" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelModCreditos" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelModSemestre" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelModProfesor" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelModAlumnosInscritos" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="buttonModificar" max="32767" attributes="0"/>
+                                  <Component id="buttonBuscar" max="32767" attributes="0"/>
+                                  <Component id="textFieldClave" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="textFieldNombre" pref="150" max="32767" attributes="0"/>
+                                  <Component id="textFieldCreditos" pref="150" max="32767" attributes="0"/>
+                                  <Component id="textFieldSemestre" pref="150" max="32767" attributes="0"/>
+                                  <Component id="textFieldProfesor" pref="150" max="32767" attributes="0"/>
+                                  <Component id="textFieldAlumnosInscritos" pref="150" max="32767" attributes="0"/>
+                                  <Component id="buttonAceptar" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="textFieldBuscarClave" max="32767" attributes="0"/>
+                                  <Component id="textFieldModNombre" max="32767" attributes="0"/>
+                                  <Component id="textFieldModCreditos" max="32767" attributes="0"/>
+                                  <Component id="textFieldModSemestre" max="32767" attributes="0"/>
+                                  <Component id="textFieldModProfesor" max="32767" attributes="0"/>
+                                  <Component id="textFieldModAlumnosInscritos" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="labelModificar" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="textAreaBuscarModificados" pref="645" max="32767" attributes="0"/>
+                          <Component id="textAreaCursosIngresados" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="labelClave" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelNombre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelCreditos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelSemestre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelProfesor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelAlumnosInscritos" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="textFieldClave" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textFieldNombre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textFieldCreditos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textFieldSemestre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textFieldProfesor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textFieldAlumnosInscritos" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="buttonAceptar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="textAreaCursosIngresados" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="labelBuscar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="labelBuscarClave" min="-2" max="-2" attributes="0"/>
+                          <Component id="textFieldBuscarClave" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="buttonBuscar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="labelModificar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="labelModNombre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelModCreditos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelModSemestre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelModProfesor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelModAlumnosInscritos" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="textFieldModNombre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textFieldModCreditos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textFieldModSemestre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textFieldModProfesor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textFieldModAlumnosInscritos" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="buttonModificar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <Component id="textAreaBuscarModificados" min="-2" pref="238" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="15" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.Label" name="labelClave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clave:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelNombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelCreditos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Creditos:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelSemestre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Semestre:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelProfesor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Profesor:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelAlumnosInscritos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alumnos Inscritos:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldClave">
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldNombre">
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldCreditos">
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldSemestre">
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldProfesor">
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldAlumnosInscritos">
+    </Component>
+    <Component class="java.awt.Button" name="buttonAceptar">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="ACEPTAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonAceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="labelBuscar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BUSCAR CURSO"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelBuscarClave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clave:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldBuscarClave">
+    </Component>
+    <Component class="java.awt.Button" name="buttonBuscar">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="BUSCAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonBuscarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="labelModNombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelModCreditos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Creditos:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelModSemestre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Semestre:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelModProfesor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Profesor:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelModAlumnosInscritos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alumnos Inscritos"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Alumnos Inscritos:"/>
+      </AccessibilityProperties>
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldModNombre">
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldModCreditos">
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldModSemestre">
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldModProfesor">
+    </Component>
+    <Component class="java.awt.TextField" name="textFieldModAlumnosInscritos">
+    </Component>
+    <Component class="java.awt.Button" name="buttonModificar">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="MODIFICAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonModificarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.TextArea" name="textAreaCursosIngresados">
+    </Component>
+    <Component class="java.awt.TextArea" name="textAreaBuscarModificados">
+    </Component>
+    <Component class="java.awt.Label" name="labelModificar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MODIFICAR CURSO"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
